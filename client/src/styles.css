@@ -25,6 +25,12 @@
 .home{
     height: 2.5em;
     width: 2.5em;
+    position: absolute;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 20px;
+    display: flex;
+    align-items: stretch;
 }
 
 .home:hover{
